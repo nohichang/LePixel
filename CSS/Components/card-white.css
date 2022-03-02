@@ -1,0 +1,63 @@
+.card-white {
+  background-color: black;
+  margin: 56px -80px;
+  box-shadow: 0 12px 30px rgb(22 50 106 / 40%);
+  border-radius: 8px;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  margin-right: 12px;
+}
+
+
+
+.logo-socialmedia{
+  font-size: 32px;
+  color: rgb(0, 173, 181) ;
+  margin: 0px 30px;
+}
+
+.logo-socialmedia:hover{
+  transition: 0.2s;
+  color: black;
+}
+
+#logo-contact{
+  font-size: 24px;
+  color: rgb(0, 173, 181) ;
+  margin-bottom: 20px;
+}
+
+#logo-contact:hover{
+  transition: 0.2s;
+  color: black;
+}
+
+
+#contact{
+
+  width: 100%;
+  top: 1600px;
+  left: 0;
+  padding: 26px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgb(22 50 106 / 40%);
+  margin-bottom: 24px;
+  position: absolute;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2px 0px 5px;
+  border-color: rgb(88, 173, 176);
+  transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;
+}
+
+
+/*Media Query*/
+
+@media(max-width: 500px) {
+  .card-white {
+    margin: 12px;
+  }
+}

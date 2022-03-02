@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/image.css");
+@import url("components/banner.css");
+@import url("components/concept.css");
+@import url("components/jeux.css");
+@import url("components/resto.css");
+@import url("components/card-white.css");
+
+
+
+
+body{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 24px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 0 0px 22px whitesmoke;
+}
+
+h2{
+  text-shadow: 0 0px 22px whitesmoke;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+
+li{
+  display: inline;
+}
+
